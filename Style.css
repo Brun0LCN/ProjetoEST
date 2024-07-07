@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(27, 87%, 58%);
+}
+
+.Top {
+    
+}
+
+/* menu */
+
+ul.menu,
+.menu li,
+.menu a {
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+ul.menu ul {
+    position: absolute;
+    display: none;
+}
+
+/* Configurações nivel 1*/
+ul.menu {
+    float: left;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.menu li {
+    float: left;
+    width: auto;
+    position: relative;
+}
+
+.menu li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 45px;
+    height: 45px;
+    float: left;
+    transition: all 0.1s linear;
+}
+
+/* Configurações nivel 2*/
+.menu li:hover>ul.submenu-1 {
+    display: block;
+    top: 45px;
+    left: 0;
+    padding: 5px;
+    width: 200px;
+    border-radius: 0 0 5px 5px;
+}
+
+.menu ul.submenu-1 a {
+    width: 160px;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+/*Configurações de cores*/
+
+/*nivel 1*/
+.menu {
+    background: #eebe3b;
+    
+}
+
+.menu a {
+    color: #ffffff;
+}
+
+.menu li:hover>a {
+    background: #ff7300;
+    color: #fff;
+}
+
+/*nivel 2*/
+.submenu-1 {
+    background: #eebe3b;
+}
+
+.submenu-1 a {
+    color: #fff;
+}
+
+.submenu-1 li:hover>a {
+    background: #ff7300;
+}
+
+.Prod {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+
+
+}
+
+ul {
+    list-style: none;
+}
