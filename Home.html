@@ -1,63 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Bruno Rod">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Teste</title>
-    <link rel="stylesheet" href="./Doc.CSS">
+  <meta charset="UTF-8">
+  <meta name="author" content="Bruno Rod">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teste</title>
+  <link rel="stylesheet" href="./Doc.CSS">
+  <link rel="stylesheet" href="">
 </head>
+
 <body>
   <div class="Top">
-  <ul class="menu">
 
-      <!-- nivel principal -->
-
-      <li><a href="#">Menu </a>
-          <ul class="submenu-1">
-
-              <!-- primeiro Drop Down -->
-
-              <li><a href="#">Cozinha</a></li>
-              <li><a href="#">Chapa</a></li>
-              <li><a href="#">Balcão</a>
-                  <ul class="submenu-2">
-                          </ul>
-                      </li>
-                  </ul>
-              </li>
-          </ul>
+    <ul>
+      <li><a href="./Home.html">Home</a></li>
+      <li>
+        <a href="#">Menu</a>
+        <ul class="dropdown">
+          <li><a href="./Ingredientes.html">Ingredientes</a></li>
+          <li><a href="#">Bebidas</a></li>
+          <li><a href="#">Insumos</a></li>
+        </ul>
       </li>
-  
-  </ul>
 
-<!-- Produtos e materias -->
-
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-
-
-  <div class="Prod">
-    <ul>
-    <li>Opções</li>
-    <ul>
-      <li>Opção 1</li>
-      <p>detlahes do produtos</p>
-      <li>Opção 2</li>
-      <p>detlahes do produtos</p>
-      <li>Opção 3</li>
-      <p>detlahes do produtos</p>
-      <li>Opção 4</li>
-      <p>detlahes do produtos</p>
-      <li>Opção 5</li>
-      <p>detlahes do produtos</p>
     </ul>
-  </ul>
+
+
+    <!-- Produtos e materias    -->
+
   </div>
+  <br>
+  <div class="Prod">
+    <table>
+      <tr>
+        <th>Produto</th>
+        <th>Quantidade</th>
+      </tr>
+      <tr>
+        <td>Item 1</td>
+        <td>0</td>
+        <td><input type="number" placeholder="Quantidade"></td>
+      </tr>
+    </table>
+  </div>
+  <input type="submit" class="enviar">
+
+
 </body>
 <header>
 </header>
+
 </html>
